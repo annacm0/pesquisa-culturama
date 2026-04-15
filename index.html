@@ -128,10 +128,23 @@
                 <label for="ruim">Ruim</label><br>
                 <label for="comment">Escreva sua opinião:</label>
                 <textarea id="comment" type="text" name="userComment" placeholder="Escreva sua opinião aqui..."></textarea>
-            </fieldset> 
+            </fieldset>
+            
+            <fieldset>
+                <legend>Confirmações</legend>
+
+                <input type="checkbox" name="userLgpd" id="userLgpdTerm" value="accepted" required>
+                <label for="userLgpdTerm">Eu aceito participar da pesquisa.</label><br>
+
+                <input type="checkbox" name="userGetresult" id="getResult" value="accepted">
+                <label for="userGetresult">Desejo receber o resultado por e-mail.</label><br>
+
+
+
+            </fieldset>
 
             <button type="submit">Enviar</button>  
-                                  
+
         </form>
     </section>
 </body>

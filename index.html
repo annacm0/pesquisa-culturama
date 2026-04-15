@@ -38,15 +38,12 @@
 
                 <p>Gênero:</p>                    
                 <input id="fem" type="radio" name="userGender" value="Feminino">
-                <label for="fem">Feminino</label>
-                
+                <label for="fem">Feminino</label>                
                 <input id="masc" type="radio" name="userGender" value="Masculino">
                 <label for="masc">Masculino</label>
-
                 <input id="notInformed" type="radio" name="userGender" value="notInformed">
                 <label for="notInformed">Prefiro não informar</label>
                 <br>
-
                 <label for="maritalStatus">Estado Civil:</label>
                 <select id="maritalStatus" name="UserMaritalStatus">
                     <option value="notInformed">Selecione</option>
@@ -54,8 +51,7 @@
                     <option value="solteiro">Solteiro</option>
                     <option value="divorciado">Divorciado</option>
                     <option value="viuvo">Viúvo</option>
-                </select>
-                
+                </select>                
                 <label for="state">Estado:</label>
                 <select id="state" name="userState" required>
                     <option value="acre">Acre</option>
@@ -86,7 +82,6 @@
                     <option value="sergipe">Sergipe</option>
                     <option value="tocantins">Tocantins</option>
                 </select>
-
                 <label for="city">Cidade:</label>
                 <input type="text" id="city" name="userCity" autocomplete="address-level2" placeholder="Ex.: Fortaleza" />
             </fieldset>
@@ -106,7 +101,6 @@
                 <input id="x" type="checkbox" name="social" value="X">
                 <label for="x">X</label>
                 <br>
-
                 <label for="musicStyle">Estilo Musical:</label>
                 <input list="styleTypes" id="musicStyle" name="userMusicStyle" type="text">
                 <datalist id="styleTypes">
@@ -115,6 +109,9 @@
                     <option value="Samba">
                     <option value="Sertanejo">
                 </datalist>
+                <br>
+                <label for="favoriteColor">Cor favorita:</label>
+                <input type="color" name="userFavoriteColor" id="favoriteColor">
             </fieldset>
                         
             <button type="submit">Enviar</button>
